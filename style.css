@@ -1,6 +1,6 @@
 :root {
     /* Color Palette */
-    --primary-color: #007bff;
+    --primary-color: black;
     --secondary-color: #6c757d;
     --accent-color: #28a745;
     --background-color: #f8f9fa;
@@ -22,7 +22,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 1rem;
     font-weight: 600;
 }
 
@@ -64,7 +63,156 @@ section {
     margin: 40px 0;
     padding: 20px;
 }
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-image: url('assets/BG-3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    gap: 10px;
+    padding-top: 100px;
+    padding-right: 120px;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    /* margin-top: 20px;*/
+}
 
+.hero-image-left, .hero-image-right {
+    flex: 1;
+    max-width: 200px;
+}
+
+.hero-image-left img, .hero-image-right img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.hero-content {
+    text-align: center;
+    flex: 2;
+    padding: 0 40px;
+}
+
+.hero-content h1 {
+    font-family: Lato;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: -2%;
+    text-align: center;
+    
+    
+}
+
+.hero-content h1 span {
+    color: var(--primary-color);
+}
+
+.hero-content p {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.hero-p{
+    width: 709px;
+    height: 48px;
+    opacity: 0.7;
+}
+.cta-buttons {
+    margin-bottom: 20px;
+}
+
+.primary-btn {
+    background: #043A53;
+    color: white;
+    border: none;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    border-radius: 55px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0px 23px 47px 0px #043A533D;
+
+}
+
+.primary-btn:hover {
+    background-color: darkblue;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    color: var(--primary-color);
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    border-radius: 55px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn {
+    background-color: transparent;
+    padding: 5px;
+    width: 200px;
+    text-align:left;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    border-radius: 55px;
+}
+#btn_container img {
+    margin-right: 5px;    
+    vertical-align: middle;
+}
+.btn-txt {
+    vertical-align: middle;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: right;
+    vertical-align: middle;
+}
+.btn-sec{
+    vertical-align: middle;
+    background: transparent;
+}
+.btn-inner-text{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: right;
+    vertical-align: middle;
+}
+.secondary-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.trustpilot {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1rem;
+}
 footer {
     text-align: center;
     padding: 20px;
