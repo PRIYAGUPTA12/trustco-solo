@@ -267,6 +267,88 @@ button:hover {
     gap: 10px;
     font-size: 1rem;
 }
+#navbar{
+    background: url('assets/BG-3.png') no-repeat center center; 
+    background-size: cover
+}
+.navbarlink{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding-top: 24px;
+    padding-right: 20px;
+    padding-bottom: 24px;
+    padding-left: 20px;
+}
+
+.navbutton{
+    display:flex;
+    gap:10px;
+}
+.navbuttonLogin{
+   width: 92px;
+   height: 50px;
+   gap: 10px;
+   padding-top: 8px;
+   padding-right: 16px;
+   padding-bottom: 8px;
+   padding-left: 16px;
+   border-radius: 42px;
+   font-family: Lato;
+   font-weight: 800;
+   font-size: 16px;
+   line-height: 100%;
+   letter-spacing: 0%;
+   text-align: center;
+   background-color: white;
+
+}
+.navbuttonSignup{
+    width: 92px;
+    height: 50px;
+    gap: 10px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    border-radius: 42px;
+    background: #043A53;
+    color:white;
+    font-family: Lato;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+    }
+    .navmenu>ul>li>a{
+    text-decoration: none;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    position: relative; 
+    
+    }
+    .navmenu ul li a::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background-color: black;
+        left: 0;
+        bottom: 0;
+        transition: width 0.3s;
+    }
+    
+    .navmenu ul li a:hover::after {
+        width: 100%;
+    }
+    
+
 footer {
     text-align: center;
     padding: 20px;
