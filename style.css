@@ -45,6 +45,63 @@ nav ul li a {
 nav ul li a:hover {
     color: var(--primary-color);
 }
+/* Brand Section Styling */
+#brand-section {
+  
+    padding: 20px 0;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-image: url('assets/BG-3.png');
+}
+
+.brand-container {
+    text-align: center;
+    padding-left:120px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.brand-container span {
+    font-weight: 600;
+    color: var(--text-color);
+    font-family: Lato;
+    font-size: 1rem;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.brand-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.brand-logos img {
+    max-width: 100px;
+    height: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.brand-logos img:hover {
+    opacity: 1;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .brand-logos {
+        gap: 20px;
+    }
+
+    .brand-logos img {
+        max-width: 80px;
+    }
+}
 
 button {
     padding: 10px 20px;
@@ -59,10 +116,6 @@ button:hover {
     color: white;
 }
 
-section {
-    margin: 40px 0;
-    padding: 20px;
-}
 #hero {
     display: flex;
     justify-content: space-between;
@@ -288,5 +341,6 @@ footer {
         margin: 20px auto;
         max-width: 100px; /* Adjust size as needed */
     }
+    
 }
 
