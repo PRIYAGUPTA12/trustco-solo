@@ -122,8 +122,9 @@ section {
     font-size: 1.2rem;
 }
 .hero-p{
-    width: 709px;
-    height: 48px;
+     max-width: 709px;
+    max-height: 48px; 
+    height:auto;
     opacity: 0.7;
 }
 .cta-buttons {
@@ -219,3 +220,73 @@ footer {
     background-color: var(--secondary-color);
     color: white;
 }
+/* Responsive Design */
+/* Mobile Phones */
+/* Mobile Phones */
+/* Responsive Design */
+@media (max-width: 1024px) { /* Tablets */
+    #hero {
+        padding: 80px 60px;
+    }
+
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) { /* Large Phones & Tablets */
+    #hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 30px;
+    }
+
+    .hero-image-left, .hero-image-right {
+        max-width: 150px; /* Reduce image size for better fit */
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-content p {
+        font-size: 0.9rem;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) { /* Mobile Phones */
+    #hero {
+        padding: 40px 20px;
+        flex-direction: column;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-content p {
+        font-size: 0.8rem;
+    }
+    
+    .primary-btn, .btn-sec {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+
+    /* Ensure images are displayed below the text */
+    .hero-image-left, .hero-image-right {
+        display: block;
+        margin: 20px auto;
+        max-width: 100px; /* Adjust size as needed */
+    }
+}
+
