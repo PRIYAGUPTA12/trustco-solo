@@ -507,8 +507,46 @@ footer {
     gap: 16px;
     
 }
+.number-section{
+    display:flex;
+    justify-content: space-between;
+}
+.numbersection1stpart{
+    width: 237px;
+height: 120px;
+gap: 16px;
+
+}
+.numberContent{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #043A53;
+
+    
+}
+.numbersubheader{
+    max-width:237px;
+    height:32px;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
 .benifitsImageClass{
-    width: 262px;
+    width: 262px;font-family: Lato;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+
     height: 390px;
     gap: 32px;
     padding-top: 32px;
