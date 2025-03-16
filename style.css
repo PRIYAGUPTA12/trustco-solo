@@ -471,7 +471,69 @@ footer {
     font-size: 20px;
     line-height: 30px;
 }
+.benifits-sections{
+     max-width:256px;
+     max-height:470px;
+}
+.benifits-button{
+    max-width: 125px;
+    max-height: 43px;
+    gap: 10px;
+    padding-top: 4px;
+    padding-right: 24px;
+    padding-bottom: 4px;
+    padding-left: 24px;
+    border-radius: 100px;
+    background: #043A53;
+    color:white;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+     letter-spacing: 0%;
 
+
+}
+#benefits{
+    display: flex;
+
+    gap: 32px;
+
+
+}
+.benifits-images{
+    max-width: 820px;
+    max-height: 470px;
+    gap: 16px;
+    
+}
+.benifitsImageClass{
+    width: 262px;
+    height: 390px;
+    gap: 32px;
+    padding-top: 32px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    border-radius: 16px;
+    
+}
+.benifitsheader{
+    font-family: Lato;
+font-weight: 700;
+font-size: 60px;
+line-height: 72px;
+letter-spacing: -2%;
+
+}
+.benifitsPSection{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    
+}
 /* Video Thumbnail Styling */
 #video-section .video-container {
     position: relative;
