@@ -578,7 +578,46 @@ letter-spacing: -2%;
     max-width: 800px;
     margin: 0 auto;
 }
+#meet-founder{
+    display:flex;
+    gap:64px;
+}
+.founderTextSection{
+    max-height:515px;
+    max-height:574px;
+}
+.buttonArrow{
+    width: 32;
+    height: 32;
+    gap: 10px;
+    border-radius: 100px;
+    padding: 4px;
+    background: #F2F5F629;
 
+
+}
+.founderHeaderSection{
+    font-family: Lato;
+font-weight: 700;
+font-size: 60px;
+line-height: 72px;
+letter-spacing: -2%;
+text-transform: capitalize;
+
+}
+.founderSubcontent{
+    font-family: Lato;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0%;
+
+}
+.manImageClass{
+    max-width: 711px;
+    max-height: 574px;
+    
+}
 #video-section .video-thumbnail {
     position: relative;
     border-radius: 10px;
@@ -612,5 +651,68 @@ letter-spacing: -2%;
     background-color: rgba(0, 0, 0, 0.8);
     transform: scale(1.1);
 }
+.founder{
+    max-width: 515px;
+    max-height: 574px;
+    gap: 64px;
 
+}
+.image-container {
+    position: relative;
+    width: 500px; /* Adjust as needed */
+    height: 500px; /* Adjust as needed */
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+}
+.founderPersonClass{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+
+}
+.founderTestClass{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+.founderclass-button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 336;
+    height: 64;
+    gap: 25px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    border-radius: 55px;
+    background: #043A53;
+    color:white;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: right;
+    vertical-align: middle;  
+}
 
