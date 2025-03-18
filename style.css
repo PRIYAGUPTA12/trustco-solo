@@ -582,6 +582,10 @@ letter-spacing: -2%;
     display:flex;
     gap:64px;
 }
+#building-bridge{
+    display:flex;
+    gap:64px;
+}
 .founderTextSection{
     max-height:515px;
     max-height:574px;
@@ -596,6 +600,31 @@ letter-spacing: -2%;
 
 
 }
+.buildingHeadingfontstyle{
+    font-family: Lato;
+font-weight: 700;
+font-size: 60px;
+line-height: 72px;
+letter-spacing: -2%;
+color: #12141D;
+
+
+}
+.buildingHeadingfontstyle span {
+    color: silver;
+}
+.buildingSubHeadingfontstyle
+    {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #12141D;
+
+}
+
+
 .founderHeaderSection{
     font-family: Lato;
 font-weight: 700;
