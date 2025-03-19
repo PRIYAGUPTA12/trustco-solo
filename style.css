@@ -744,4 +744,69 @@ letter-spacing: 0%;
     text-align: right;
     vertical-align: middle;  
 }
+.testinomial-image{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 70px;
+    letter-spacing: -1.67px;
+    
+}
+.testinomial-person-image{
+    width: 48px;
+height: 48px;
 
+}
+.testimonialFirst{
+    max-width: 554px;
+max-height: 259px;
+gap: 24px;
+border-radius: 16px;
+padding: 24px;
+
+}
+.firstperson{
+    max-width: 299px;
+    max-height: 53px;
+    gap: 16px;
+    display:flex;
+    
+    
+}
+.firstpersonText{
+    max-width: 239px;
+max-height: 53px;
+gap: 5px;
+
+}
+.dialogDiv{
+    display:flex
+}
+.testimonialsSection{
+    display: flex;
+    justify-content: space-between;
+}
+.header-p-title{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+
+}
+.authorname{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+.p-testimonial{
+    font-family: Lato;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+
+}
